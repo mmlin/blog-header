@@ -1,0 +1,23 @@
+body {
+  color: #333;
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: auto;
+  max-width: 1240px;
+  padding: 0 20px;
+}
+.bh-placeholder {
+  min-height: 151px;
+}
+
+@media only screen and (max-width: 840px) {
+  .bh-placeholder {
+    min-height: 102px;
+  }
+}
