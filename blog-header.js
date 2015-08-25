@@ -1,7 +1,7 @@
 function initHeader() {
   // Hide the original header and show the new one.
   $('#site-header').hide();
-  $('.blog-header').show();
+  $('#blog-header').show();
 
   // Set the active subnavigation item.
   switch (window.location.pathname) {

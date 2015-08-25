@@ -1,6 +1,6 @@
 /* Styles for new blog header being A/B tested. */
 
-.blog-header {
+#blog-header {
   background-color: #fff;
   font-family: "Gotham SSm A", "Gotham SSm B";
   font-size: 12px;
@@ -8,13 +8,13 @@
   font-weight: 400;
   position: relative;
 }
-.blog-header .bh-container {
+.bh-container {
   height: 30px;
   max-width: 1240px;
   margin: auto;
   padding: 3em 20px;
 }
-.blog-header .bh-logo {
+.bh-logo {
   background-image: url(logo.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,35 +26,35 @@
   text-indent: 171.36125654px; /* Image replacement. */
   width: 171.36125654px;       /* Image replacement. */
 }
-.blog-header .bh-nav {
+.bh-nav {
   float: right;
   line-height: 30px; /* Vertically align with logo. */
   list-style-type: none;
   margin: 5px 0 0;   /* Align with logo text. */
   padding: 0;
 }
-.blog-header .bh-nav-item {
+.bh-nav-item {
   display: inline-block;
   margin: 0 0 0 1.5em;
   padding: 0;
 }
-.blog-header .bh-nav-item:last-child {
+.bh-nav-item:last-child {
   margin: 0;
 }
-.blog-header .bh-nav-link {
+.bh-nav-link {
   color: #333;
   padding: 3em 0;
   text-decoration: none;
   text-transform: uppercase;
   transition: color 0.25s ease;
 }
-.blog-header .bh-nav-link:hover {
+.bh-nav-link:hover {
   color: #999;
 }
-.blog-header .bh-phone {
+.bh-phone {
   color: #999;
 }
-.blog-header .bh-nav-signup {
+.bh-nav-signup {
   background-color: #23c4eb;
   border-radius: 5px;
   color: #fff;
@@ -63,10 +63,10 @@
   text-decoration: none;
   transition: background-color 0.5s ease;
 }
-.blog-header .bh-nav-signup:hover {
+.bh-nav-signup:hover {
   background-color: #20B0D4;
 }
-.blog-header .bh-nav-signin {
+.bh-nav-signin {
   border-radius: 5px;
   color: #23c4eb;
   font-weight: bold;
@@ -74,22 +74,22 @@
   text-decoration: none;
   transition: background-color 0.5s ease;
 }
-.blog-header .bh-nav-signin:hover {
+.bh-nav-signin:hover {
   background-color: #eee;
 }
-.blog-header .bh-subnav-container {
+.bh-subnav-container {
   background-color: #eee;
 }
-.blog-header .bh-subnav {
+.bh-subnav {
   list-style-type: none;
   margin: auto;
   max-width: 1240px;
   padding: 0 20px;
 }
-.blog-header .bh-subnav-item {
+.bh-subnav-item {
   display: inline-block;
 }
-.blog-header .bh-subnav-link {
+.bh-subnav-link {
   color: #333;
   display: inline-block;
   font-size: 1.1666666667em;
@@ -98,16 +98,16 @@
   padding: 1em 0;
   text-decoration: none;
 }
-.blog-header .bh-subnav-link.active {
+.bh-subnav-link.active {
   border-bottom: 0.15em solid #333;
   font-weight: bold;
   padding: 1em 0 0.85em;
 }
-.blog-header .bh-subnav-link:hover {
+.bh-subnav-link:hover {
   border-bottom: 0.15em solid #bbb;
   padding: 1em 0 0.85em;
 }
-.blog-header .bh-mobl-icon {
+.bh-mobl-icon {
   background-image: url(reorder.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -119,10 +119,10 @@
   opacity: 0.9;
   width: 25px;
 }
-.blog-header .bh-mobl-icon.open {
+.bh-mobl-icon.open {
   background-image: url(remove11.svg);
 }
-.blog-header .bh-nav-mobl {
+.bh-nav-mobl {
   background-color: #fff;
   display: none;
   list-style-type: none;
@@ -132,69 +132,69 @@
   top: 100%;
   width: 100%;
 }
-.blog-header .bh-nav-item-mobl {
+.bh-nav-item-mobl {
   border-bottom: 1px solid #ddd;
 }
-.blog-header .bh-nav-link-mobl {
+.bh-nav-link-mobl {
   color: #333;
   display: block;
   padding: 0.8333333333em 20px;
   text-decoration: none;
   text-transform: uppercase;
 }
-.blog-header .bh-subnav-mobl {
+.bh-subnav-mobl {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.blog-header .bh-subnav-link-mobl {
+.bh-subnav-link-mobl {
   color: #999;
   display: block;
   padding: 0.8333333333em 20px 0.8333333333em 40px;
   text-decoration: none;
 }
-.blog-header .bh-phone-mobl {
+.bh-phone-mobl {
   color: #23c4eb;
   padding: 0.8333333333em 20px;
 }
 
 @media only screen and (max-width: 1279px) {
-  .blog-header .bh-blog-extra {
+  .bh-blog-extra {
     display: none;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .blog-header .bh-phone {
+  .bh-phone {
     display: none;
   }
 }
 
 @media only screen and (max-width: 840px) {
-  .blog-header .bh-nav {
+  .bh-nav {
     display: none;
   }
-  .blog-header .bh-subnav-container {
+  .bh-subnav-container {
     display: none;
   }
-  .blog-header .bh-container {
+  .bh-container {
     height: 25px;
     padding: 2em 20px;
   }
-  .blog-header .bh-logo {
+  .bh-logo {
     height: 25px;
     width: 142.80104712px;
   }
-  .blog-header .bh-mobl-icon {
+  .bh-mobl-icon {
     display: block;
   }
-  .blog-header .bh-nav-mobl.open {
+  .bh-nav-mobl.open {
     display: block;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .blog-header .bh-nav-mobl {
+  .bh-nav-mobl {
     font-size: 0.8em;
   }
 }
